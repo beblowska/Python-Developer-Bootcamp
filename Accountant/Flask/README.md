@@ -13,7 +13,7 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
    ```bash
    pip install Flask
 
-  Teraz aplikacja będzie dostępna w przeglądarce pod adresem `http://localhost:5000`.
+   Teraz aplikacja będzie dostępna w przeglądarce pod adresem `http://localhost:5000`.
 
 4. **Interakcja**
 
@@ -35,7 +35,7 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
         Jeśli dane są poprawne, saldo zostanie zaktualizowane.
 
     - Podstrona Historia
-      Aby przejść do podstrony Historia, przejdź pod adres http://localhost:5000/historia.
+      Aby przejść do podstrony Historia, przejdź pod adres `http://localhost:5000/historia`.
 
     - Wyszukiwanie po dacie:
       Możesz podać dwa opcjonalne parametry w adresie, np. `http://localhost:5000/historia/line_from/line_to`. Jeśli nie podasz tych parametrów, wyświetli się cała historia działań.
