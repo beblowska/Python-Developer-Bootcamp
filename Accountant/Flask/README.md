@@ -1,12 +1,12 @@
-# Instrukcja obsługi aplikacji do zarządzania magazynem i księgowością
+# Webowa aplikacja programu Accountant
 
 Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością.
 
-# 1. **Pobranie kodu**
+## Pobranie kodu
 
    Skopiuj dostarczony kod i zapisz go do pliku o nazwie np. `main.py`.
 
-3. **Instalacja zależności**
+## Instalacja zależności
 
    Aplikacja korzysta z frameworka Flask oraz SQLite jako bazy danych. Upewnij się, że masz te zależności zainstalowane. Jeśli nie, możesz zainstalować je za pomocą pip:
 
@@ -14,7 +14,7 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
 
    Teraz aplikacja będzie dostępna w przeglądarce pod adresem `http://localhost:5000`.
 
-4. **Interakcja**
+## Interakcja
 
    Po uruchomieniu aplikacji zostaniesz przekierowany na stronę główną. Na tej stronie znajdziesz informacje o aktualnym stanie magazynu oraz saldzie.
 
@@ -39,7 +39,7 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
     - Wyszukiwanie po dacie:
       Możesz podać dwa opcjonalne parametry w adresie, np. `http://localhost:5000/historia/line_from/line_to`. Jeśli nie podasz tych parametrów, wyświetli się cała historia działań.
 
-5. **Zapis danych**
+## Zapis danych
 
    Aplikacja zapisuje dane w bazie danych SQLite zamiast w pliku tekstowym. Baza danych zostanie utworzona automatycznie. Nie musisz dostarczać pliku bazy danych, aplikacja go zarządza.
    
