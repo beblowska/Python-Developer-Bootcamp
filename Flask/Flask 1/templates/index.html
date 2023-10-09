@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  Accountant - Strona Główna
+{% endblock %}
+
+{% block main %}
+<p><h2>Strona główna</h2></p>
+<div class="alert alert-primary" role="alert">
+ Stan magazynu
+</div>
+<div class="col">
+    <div class="mb-3">
+    <table >
+        {% for product_name in warehouse %}
+        <tr>
+            <td><h5>{{ product_name }} : </h5></td>
+            <td><h5>{{ warehouse[product_name] }}</h5></td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+</div>
+
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Stan konta
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+          <h4>
+        Stan konta wynosi: {{ balance }}
+          </h4>
+        <form method="post">
+  <div class="mt-3">
+    <label for="InputAmount" class="form-label">Kwota</label>
+    <input type="number" name="amount" class="form-control" id="InputAmount" aria-describedby="InputAmountHelp">
+    <div id="InputAmountHelp" class="form-text">Podaj kwotę większą od 0</div>
+  </div>
+  <div class="mt-3">
+    <label for="InputComment" class="form-label">Komentarz</label>
+    <input type="text" name="comment" class="form-control" id="InputComment">
+  </div>
+          <div class="mt-3">
+  <button type="submit" value="saldo" name="submit" class="btn btn-primary">Dodaj</button>
+</div>
+      </form>
+    </div>
+  </div>
+    </div>
+</div>
+
+
+<div class="accordion" id="accordionPanelsStayOpenExampleTwo">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Formularz zakupu
+  </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <h4>
+        Zakup
+          </h4>
+        <form method="post">
+  <div class="mt-3">
+    <label for="InputName" class="form-label">Produkt</label>
+    <input type="text" name="name" class="form-control" id="InputName" aria-describedby="InputNameHelp">
+  </div>
+  <div class="mt-3">
+    <label for="InputPrice" class="form-label">Cena</label>
+    <input type="number" name="price" class="form-control" id="InputPrice">
+  </div>
+            <div class="mt-3">
+    <label for="InputQty" class="form-label">Ilość</label>
+    <input type="number" name="qty" class="form-control" id="InputQty">
+  </div>
+          <div class="mt-3">
+  <button type="submit" value="zakup" name="submit" class="btn btn-primary">Zakup</button>
+</div>
+        </form>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="accordion" id="accordionPanelsStayOpenExampleThree">
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Formularz sprzedaży
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+         <h4>
+        Sprzedaż
+          </h4>
+        <form method="post">
+  <div class="mt-3">
+    <label for="InputSpName" class="form-label">Produkt</label>
+    <input type="text" name="name" class="form-control" id="InputSpName" aria-describedby="InputSpName">
+  </div>
+  <div class="mt-3">
+    <label for="InputSpPrice" class="form-label">Cena</label>
+    <input type="number" name="price" class="form-control" id="InputSpPrice">
+  </div>
+            <div class="mt-3">
+    <label for="InputSpQty" class="form-label">Ilość</label>
+    <input type="number" name="qty" class="form-control" id="InputSpQty">
+  </div>
+          <div class="mt-3">
+  <button type="submit" value="sprzedaz" name="submit" class="btn btn-primary">Sprzedaż</button>
+</div>
+        </form>
+      </div>
+    </div>
+    </div>
+</div>
+<div class="mt-3">
+</div>
+{% endblock %}
