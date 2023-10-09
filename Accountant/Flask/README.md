@@ -2,7 +2,7 @@
 
 Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością.
 
-1. **Pobranie kodu**
+# 1. **Pobranie kodu**
 
    Skopiuj dostarczony kod i zapisz go do pliku o nazwie np. `main.py`.
 
