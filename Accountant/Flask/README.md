@@ -15,7 +15,7 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
 
   Teraz aplikacja będzie dostępna w przeglądarce pod adresem http://localhost:5000.
 
-4. **Interacka**
+4. **Interakcja**
 
    Po uruchomieniu aplikacji zostaniesz przekierowany na stronę główną. Na tej stronie znajdziesz informacje o aktualnym stanie magazynu oraz saldzie.
 
@@ -37,8 +37,8 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
     - Podstrona Historia
       Aby przejść do podstrony Historia, przejdź pod adres http://localhost:5000/historia.
 
-    Wyszukiwanie po dacie:
-    Możesz podać dwa opcjonalne parametry w adresie, np. `http://localhost:5000/historia/line_from/line_to`. Jeśli nie podasz tych parametrów, wyświetli się cała historia działań.
+    - Wyszukiwanie po dacie:
+      Możesz podać dwa opcjonalne parametry w adresie, np. `http://localhost:5000/historia/line_from/line_to`. Jeśli nie podasz tych parametrów, wyświetli się cała historia działań.
 
 5. **Zapis danych**
 
