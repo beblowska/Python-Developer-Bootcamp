@@ -3,7 +3,7 @@
 Prosty System Księgowy to niewielki program do zarządzania saldem konta i magazynem produktów. Pozwala na dodawanie wpłat, zakup produktów oraz ich sprzedaż.
 Program obsługuje komunikaty błędów i rejestruje historię działań.
 
-## Instrukcja
+## Intreakcja
 
 Aby uruchomić program, po prostu uruchom go w terminalu lub konsoli. Program obsługuje następujące akcje:
 
