@@ -10,7 +10,6 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
 
    Aplikacja korzysta z frameworka Flask oraz SQLite jako bazy danych. Upewnij się, że masz te zależności zainstalowane. Jeśli nie, możesz zainstalować je za pomocą pip:
 
-   ```bash
   `pip install Flask`
 
    Teraz aplikacja będzie dostępna w przeglądarce pod adresem `http://localhost:5000`.
