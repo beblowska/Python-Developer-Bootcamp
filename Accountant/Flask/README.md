@@ -13,7 +13,7 @@ Aplikacja webowa służy do zarządzania stanem magazynowym oraz księgowością
    ```bash
    pip install Flask
 
-  Teraz aplikacja będzie dostępna w przeglądarce pod adresem http://localhost:5000.
+  Teraz aplikacja będzie dostępna w przeglądarce pod adresem `http://localhost:5000`.
 
 4. **Interakcja**
 
