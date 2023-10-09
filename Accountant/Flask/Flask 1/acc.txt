@@ -1,6 +1,0 @@
-saldo 5000 wplata
-zakup ksiazka 25 2
-zakup rower 847 1
-slado 100 wplata
-zakup lody 2 2
-saldo 1000 wplata
