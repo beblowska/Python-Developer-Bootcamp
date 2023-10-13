@@ -1,4 +1,3 @@
-# future-collars-python
 # Python Developer Bootcamp Repository - Wybrane Projekty
 
 Witaj w repozytorium "future-collars-python"! Tutaj znajdziesz kluczowe projekty wykonane podczas kursu Python Bootcamp. Poniżej prezentujemy krótkie opisy każdego z tych projektów:
