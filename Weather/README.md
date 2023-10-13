@@ -19,7 +19,7 @@ Program można uruchomić na dwa sposoby:
 1. Podając klucz API oraz datę (w formacie YYYY-MM-DD) jako argumenty wiersza poleceń. Na przykład:
 
    ```bash
-   `python weather.py <<klucz_api>> 2023-09-29`
+   python weather.py <<klucz_api>> 2023-09-29
 lub
    ```bash
    python weather.py <<klucz_api>>
