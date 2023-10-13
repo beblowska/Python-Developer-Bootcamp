@@ -1,14 +1,14 @@
-## Prosty System Księgowy i Rozszerzenia
+# Prosty System Księgowy i Rozszerzenia
 
 Ten zestaw projektów skupia się na projektach z zakresu zarządzania finansami oraz magazynem, które korzystają z różnych technologii i oferują różne możliwości. 
 Oto krótka prezentacja każdego z projektów:
 
-# Prosty System Księgowy
+## Prosty System Księgowy
 
 **Prosty System Księgowy** (Accountant1) to niewielki program do zarządzania saldem konta i magazynem produktów. 
 Pozwala na dodawanie wpłat, zakup produktów oraz ich sprzedaż. Program obsługuje komunikaty błędów i rejestruje historię działań.
 
-# Interakcja
+## Interakcja
 
 Aby uruchomić program, po prostu uruchom go w terminalu lub konsoli. Program obsługuje następujące akcje:
 
@@ -17,21 +17,21 @@ Aby uruchomić program, po prostu uruchom go w terminalu lub konsoli. Program ob
 - **sprzedaż** - Pozwala na sprzedaż produktów. Podaje się nazwę produktu, cenę jednostkową i ilość sztuk. Program dodaje odpowiednią kwotę do salda i aktualizuje stan magazynu.
 - **stop** - Zatrzymuje program.
 
-# Przykładowe uruchomienie
+## Przykładowe uruchomienie
 
 python program.py saldo "Wpłata gotówki" 100
 
-# Rozszerzenie Programu Accountant
+## Rozszerzenie Programu Accountant
 
 **Rozszerzenie Programu Accountant** (Accountant2) to projekt rozszerzający możliwości Prostego Systemu Księgowego. 
 Teraz program obsługuje różne operacje za pomocą komend wywołanych z linii poleceń. Program zapisuje wyniki i historię działań do pliku.
 
-# Przykładowe uruchomienie
+## Przykładowe uruchomienie
 
 python saldo.py moj_plik.txt 100 "Wpłata gotówki"
 python sprzedaz.py moj_plik.txt Laptop 1500 3
 
-# Rozszerzenie Programu Accountant z Plikiem
+## Rozszerzenie Programu Accountant z Plikiem
 
 **Rozszerzenie Programu Accountant** (Accountant3) z dodatkową możliwością zapisu i odczytu danych z plików. 
 Teraz program jest wywoływany w taki sposób:
@@ -43,11 +43,11 @@ Teraz program jest wywoływany w taki sposób:
 - python magazyn.py <plik> <nazwa_produktu1> <nazwa_produktu2> <nazwa_produktu3> ...
 - python przeglad.py <plik>
 
-# Przykładowe uruchomienie
+## Przykładowe uruchomienie
 
 python accountant.py nazwa_pliku.txt
 
-# Webowa aplikacja programu Accountant
+## Webowa aplikacja programu Accountant
 
 **Webowa aplikacja programu Accountant** (Flask) służy do zarządzania stanem magazynowym oraz księgowością za pomocą interfejsu webowego. 
 Pobranie kodu, instalacja zależności i interakcja z aplikacją są dokładnie opisane w dokumentacji projektu.
