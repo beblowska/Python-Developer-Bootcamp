@@ -1,4 +1,4 @@
-# Kalendarz w django
+# Kalendarz w Django
 
 Projekt "Kalendarz w Django" to moja ostatnia praca z zakresu programowania webowego. 
 To pełnoprawna aplikacja kalendarza stworzona przy użyciu frameworku Django. 
