@@ -18,7 +18,7 @@ Klasa Weather2 umożliwia wykorzystanie poniższych funkcjonalności:
 
 2. **wf.items()** - Zwraca generator tupli w formacie (data, pogoda) dla już zcache’owanych rezultatów.
 
-3 **wf** - Działa jako iterator, zwracając wszystkie daty, dla których znana jest pogoda.
+3. **wf** - Działa jako iterator, zwracając wszystkie daty, dla których znana jest pogoda.
 
 # Funkcje 
 
