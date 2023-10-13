@@ -21,5 +21,6 @@ Program można uruchomić na dwa sposoby:
    ```bash
    `python weather.py <<klucz_api>> 2023-09-29`
 lub
-  ```bash
-   `python weather.py <<klucz_api>> 2023-09-29`
+   ```bash
+   python weather.py <<klucz_api>>
+
