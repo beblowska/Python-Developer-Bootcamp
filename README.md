@@ -5,13 +5,13 @@ Witaj w repozytorium "future-collars-python"! Tutaj znajdziesz kluczowe projekty
 
 ## Projekt 1: Accountant
 
- - **Opis:** "Accountant" to nasz pierwszy projekt, który rozpoczyna się jako prosta aplikacja do zarządzania finansami firmy w wersji konsolowej (Python) i ewoluuje w stronę bardziej zaawansowanej wersji opartej na Flask, co umożliwia interakcję za pomocą przeglądarki internetowej.
+ - **Opis:** "Accountant" to pierwszy projekt, który rozpoczyna się jako prosta aplikacja do zarządzania finansami firmy w wersji konsolowej (Python) i ewoluuje w stronę bardziej zaawansowanej wersji opartej na Flask, co umożliwia interakcję za pomocą przeglądarki internetowej.
 
 - **Technologie:** Python, Flask, SQLite.
 
 ## Projekt 2: Baza Szkolna
 
-- **Opis:** Projekt "Baza Szkolna" to nasz system zarządzania danymi uczniów, nauczycieli i ocen w szkole. Umożliwia dodawanie i edycję informacji o uczniach oraz nauczycielach, a także wprowadzanie ocen i generowanie raportów.
+- **Opis:** Projekt "Baza Szkolna" to system zarządzania danymi uczniów, nauczycieli i ocen w szkole. Umożliwia dodawanie i edycję informacji o uczniach oraz nauczycielach.
 
 - **Technologie:** Python, Flask, SQLAlchemy, SQLite.
 
